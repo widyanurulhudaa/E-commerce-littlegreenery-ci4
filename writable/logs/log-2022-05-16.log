@@ -1,0 +1,365 @@
+CRITICAL - 2022-05-16 01:35:36 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\tokoku\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/', 'before')
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-16 01:51:42 --> Undefined variable $flash
+#0 C:\xampp\htdocs\tokoku\app\Views\themes\littlegreenery\pages\contact.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1089): CodeIgniter\View\View->render('themes\\vegefood...', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Pages.php(43): view('themes\\vegefood...', Array)
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Pages->contact()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-16 01:52:02 --> Undefined variable $flash
+#0 C:\xampp\htdocs\tokoku\app\Views\themes\littlegreenery\pages\contact.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1089): CodeIgniter\View\View->render('themes\\vegefood...', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Pages.php(43): view('themes\\vegefood...', Array)
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Pages->contact()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-16 01:52:18 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\tokoku\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tokoku\system\Common.php(1089): CodeIgniter\View\View->render('themes\\vegefood...', Array, true)
+#3 C:\xampp\htdocs\tokoku\app\Controllers\Pages.php(43): view('themes\\vegefood...', Array)
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Pages->contact()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-16 01:54:13 --> Undefined variable $name
+#0 C:\xampp\htdocs\tokoku\app\Views\themes\littlegreenery\pages\contact.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1089): CodeIgniter\View\View->render('themes\\vegefood...', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Pages.php(43): view('themes\\vegefood...', Array)
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Pages->contact()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-16 04:27:41 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 04:27:43 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 04:27:45 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 04:27:48 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 04:27:49 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 04:30:37 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 04:30:39 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 04:30:41 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 04:30:48 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 04:30:57 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 04:31:21 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 04:42:29 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 04:42:56 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 07:00:06 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 07:00:24 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 07:09:43 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 07:13:52 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 07:13:58 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 07:26:04 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 07:26:57 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 07:27:02 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 07:27:04 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 11:17:00 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 11:22:20 --> Undefined property: App\Controllers\Home::$output
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 98)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 13:08:47 --> Undefined array key "qyt"
+#0 C:\xampp\htdocs\tokoku\app\Views\themes\littlegreenery\home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 109)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1089): CodeIgniter\View\View->render('themes\\vegefood...', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(33): view('themes\\vegefood...', Array)
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-16 13:11:51 --> Undefined array key "qyt"
+#0 C:\xampp\htdocs\tokoku\app\Views\themes\littlegreenery\home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 109)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1089): CodeIgniter\View\View->render('themes\\vegefood...', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(33): view('themes\\vegefood...', Array)
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-16 13:20:34 --> Call to undefined method CodeIgniterCart\Cart::content()
+#0 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cek()
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-16 14:05:01 --> Undefined property: App\Controllers\Home::$output
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 126)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 14:05:09 --> Undefined property: App\Controllers\Home::$output
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 126)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 14:12:28 --> Undefined property: App\Controllers\Home::$output
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 125)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 14:14:00 --> Undefined property: App\Controllers\Home::$output
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 125)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 17:16:41 --> Undefined property: App\Controllers\Home::$output
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 125)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 23:30:18 --> Undefined property: App\Controllers\Home::$output
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 125)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 23:30:21 --> Undefined property: App\Controllers\Home::$output
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 125)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 23:40:56 --> Undefined property: App\Controllers\Home::$output
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 125)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 23:40:57 --> Undefined property: App\Controllers\Home::$output
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 125)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 23:41:08 --> Undefined property: App\Controllers\Home::$output
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 125)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 23:41:38 --> Undefined property: App\Controllers\Home::$output
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 125)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->cart_api()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

@@ -1,0 +1,13 @@
+CRITICAL - 2022-06-12 08:13:53 --> mb_strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'mb_strpos(): Pa...', 'C:\\xampp\\htdocs...', 138)
+#1 C:\xampp\htdocs\littlegreenery\system\Validation\FileRules.php(138): mb_strpos(NULL, 'image')
+#2 C:\xampp\htdocs\littlegreenery\system\Validation\Validation.php(292): CodeIgniter\Validation\FileRules->is_image(NULL, Array, Array, NULL)
+#3 C:\xampp\htdocs\littlegreenery\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('picture', 'picture', NULL, Array, Array)
+#4 C:\xampp\htdocs\littlegreenery\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#5 C:\xampp\htdocs\littlegreenery\app\Controllers\Admin_Products.php(77): CodeIgniter\Controller->validate(Array)
+#6 C:\xampp\htdocs\littlegreenery\system\CodeIgniter.php(832): App\Controllers\Admin_Products->add_product()
+#7 C:\xampp\htdocs\littlegreenery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Products))
+#8 C:\xampp\htdocs\littlegreenery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\littlegreenery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\littlegreenery\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}

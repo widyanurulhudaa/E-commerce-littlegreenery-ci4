@@ -1,0 +1,42 @@
+ERROR - 2022-06-10 06:48:46 --> Error connecting to the database: Unknown database 'db_tokoku'
+CRITICAL - 2022-06-10 06:48:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_tokoku'
+#0 C:\xampp\htdocs\littlegreenery\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\littlegreenery\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\littlegreenery\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\littlegreenery\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\littlegreenery\app\Controllers\Home.php(21): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\littlegreenery\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\littlegreenery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\littlegreenery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\littlegreenery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\littlegreenery\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-06-10 06:51:25 --> Error connecting to the database: Unknown database 'db_tokoku'
+CRITICAL - 2022-06-10 06:51:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_tokoku'
+#0 C:\xampp\htdocs\littlegreenery\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\littlegreenery\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\littlegreenery\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\littlegreenery\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\littlegreenery\app\Controllers\Home.php(21): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\littlegreenery\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\littlegreenery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\littlegreenery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\littlegreenery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\littlegreenery\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-06-10 06:51:52 --> Error connecting to the database: Unknown database 'db_tokoku'
+CRITICAL - 2022-06-10 06:51:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_tokoku'
+#0 C:\xampp\htdocs\littlegreenery\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\littlegreenery\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\littlegreenery\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\littlegreenery\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\littlegreenery\app\Controllers\Home.php(21): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\littlegreenery\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\littlegreenery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\littlegreenery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\littlegreenery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\littlegreenery\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

@@ -1,0 +1,269 @@
+ERROR - 2022-05-21 17:30:32 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-21 17:30:32 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tokoku\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tokoku\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tokoku\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(21): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-21 17:30:36 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-21 17:30:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tokoku\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tokoku\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tokoku\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(21): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-21 17:33:05 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+#0 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Products->add_new_product()
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Products))
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-21 17:36:06 --> Undefined property: App\Controllers\Admin_Products::$load
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Admin_Products.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Products->add_new_product()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Products))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 17:58:27 --> syntax error, unexpected token "public", expecting end of file
+#0 C:\xampp\htdocs\tokoku\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin_products/...')
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin_products/...')
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 18:03:31 --> Undefined variable $category_id
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Admin_Products.php(155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 155)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Products->add_product()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Products))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 18:05:32 --> Undefined variable $category_id
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Admin_Products.php(155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 155)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Products->add_product()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Products))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 18:12:08 --> Undefined property: App\Controllers\Admin_Products::$load
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Admin_Products.php(373): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 373)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Products->coupons()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Products))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 18:25:25 --> Undefined property: App\Controllers\Admin_Payments::$product
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Admin_Payments.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Payments->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Payments))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 18:26:51 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\tokoku\system\Model.php on line 184
+#0 C:\xampp\htdocs\tokoku\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\xampp\htdocs\tokoku\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#2 C:\xampp\htdocs\tokoku\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#3 C:\xampp\htdocs\tokoku\app\Controllers\Admin_Payments.php(24): CodeIgniter\BaseModel->paginate(10, 'card')
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Payments->index()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Payments))
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-21 18:29:19 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\tokoku\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tokoku\system\Common.php(1089): CodeIgniter\View\View->render('admin/payments/...', Array, true)
+#3 C:\xampp\htdocs\tokoku\app\Controllers\Admin_Payments.php(60): view('admin/payments/...', Array)
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Payments->index()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Payments))
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-21 18:30:35 --> Too few arguments to function App\Models\Admin\Payment_model::get_all_payments(), 0 passed in C:\xampp\htdocs\tokoku\app\Controllers\Admin_Payments.php on line 57 and exactly 2 expected
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Admin_Payments.php(57): App\Models\Admin\Payment_model->get_all_payments()
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Payments->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Payments))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-05-21 18:34:31 --> Table 'db_tokoku.customers' doesn't exist
+CRITICAL - 2022-05-21 18:34:31 --> Table 'db_tokoku.customers' doesn't exist
+#0 C:\xampp\htdocs\tokoku\system\Database\MySQLi\Connection.php(292): mysqli->query('\n            SE...', 0)
+#1 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('\n            SE...')
+#2 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('\n            SE...')
+#3 C:\xampp\htdocs\tokoku\app\Models\Admin\Payment_model.php(75): CodeIgniter\Database\BaseConnection->query('\n            SE...')
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Admin_Payments.php(66): App\Models\Admin\Payment_model->payment_data('6')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Payments->view('6')
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Payments))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-21 18:35:43 --> Undefined property: App\Controllers\Admin_Payments::$session
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Admin_Payments.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Payments->view('6')
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Payments))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 18:36:33 --> Undefined property: App\Controllers\Admin_Payments::$session
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Admin_Payments.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Payments->view('6')
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Payments))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 18:36:44 --> Undefined property: App\Controllers\Admin_Payments::$session
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Admin_Payments.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Payments->view('6')
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Payments))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 18:37:14 --> Undefined property: App\Controllers\Admin_Payments::$session
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Admin_Payments.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Payments->view('6')
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Payments))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 18:37:16 --> Undefined property: App\Controllers\Admin_Payments::$session
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Admin_Payments.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Payments->view('6')
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Payments))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 18:37:17 --> Undefined property: App\Controllers\Admin_Payments::$session
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Admin_Payments.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Payments->view('6')
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Payments))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 18:37:57 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+#0 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Payments->view('6')
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Payments))
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-21 18:40:18 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\tokoku\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\tokoku\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\tokoku\app\Controllers\Admin_Payments.php(106): redirect('admin_payments/...')
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Payments->verify()
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Payments))
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-21 18:42:17 --> Undefined variable $status
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Admin_Payments.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 101)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Payments->verify()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Payments))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 18:53:15 --> Undefined property: App\Controllers\Admin_Customers::$input
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Admin_Customers.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 68)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Customers->api('delete')
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Customers))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 18:54:24 --> Undefined property: App\Controllers\Admin_Customers::$input
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Admin_Customers.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 68)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Customers->api('delete')
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Customers))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 20:08:08 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+#0 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Customers->view('10')
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Customers))
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-21 20:08:21 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+#0 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Customers->view('10')
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Customers))
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-21 20:10:55 --> Undefined property: stdClass::$register_date
+#0 C:\xampp\htdocs\tokoku\app\Views\admin\customers\view.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1089): CodeIgniter\View\View->render('admin/customers...', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Admin_Customers.php(40): view('admin/customers...', Array)
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Customers->view('10')
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Customers))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-21 21:52:43 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-21 21:52:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tokoku\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tokoku\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tokoku\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(21): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-21 21:52:47 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-21 21:52:47 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tokoku\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tokoku\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tokoku\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Home.php(21): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

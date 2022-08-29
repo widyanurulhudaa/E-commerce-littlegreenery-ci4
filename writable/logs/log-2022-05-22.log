@@ -1,0 +1,22 @@
+CRITICAL - 2022-05-22 22:01:32 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+#0 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Products->add_new_product()
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Products))
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-22 22:01:50 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+#0 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Products->view('1')
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Products))
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-22 22:12:41 --> Undefined property: App\Controllers\Admin_Products::$load
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Admin_Products.php(351): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 351)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(832): App\Controllers\Admin_Products->coupons()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Products))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
